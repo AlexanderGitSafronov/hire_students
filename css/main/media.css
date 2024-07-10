@@ -1,0 +1,145 @@
+@media (max-width: 1080px) {
+  .about__block {
+    width: 160px;
+    min-width: 160px;
+  }
+}
+@media (max-width: 991px) {
+  .about__block {
+    width: 183px;
+    min-width: 183px;
+  }
+  .about__block_more {
+    display: none;
+  }
+  .about {
+    flex-direction: column;
+    row-gap: 35px;
+  }
+  .about__block:last-child:after {
+    display: none;
+  }
+  .about__wrapper {
+    justify-content: center;
+  }
+  .about__more_mob {
+    display: block;
+  }
+  .about__more_mob_wrapper {
+    display: block !important;
+  }
+}
+@media (max-width: 768px) {
+  .header__pc_link {
+    display: none !important;
+  }
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .red-balloon {
+    display: none;
+  }
+  .menuBtn {
+    display: block !important;
+  }
+  .green-balloon {
+    left: -20px;
+    top: 30px;
+    z-index: 2;
+    width: 80px;
+  }
+  .blue-balloon {
+    width: 100px;
+  }
+  .header__block h6 {
+    position: relative;
+    z-index: 5;
+  }
+  .left-cloud {
+    top: -10px;
+    width: 90px;
+  }
+}
+@media (max-width: 768px) {
+  .header .container, .header .container-sm {
+    max-width: 760px !important;
+    width: 95% !important;
+}
+.mainMenu {
+  max-width: 375px;
+  background-color: #fff;
+}
+
+}
+@media (max-width: 500px) {
+  .mainMenu {
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+    backdrop-filter: blur(10px); /* Размытие фона за элементом */
+    -webkit-backdrop-filter: blur(10px); /* Для поддержки в Webkit-браузерах */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Полупрозрачная рамка */
+    border-radius: 10px; /* Скругленные углы */
+  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  }
+  .header__block h6 {
+    font-size: 13px;
+  }
+  .green-balloon {
+    width: 57px;
+    left: -12px;
+    top: 40px;
+  }
+  .left-cloud {
+    top: 0px;
+  }
+  .main__section {
+    padding: 0 12px;
+  }
+  .blue-balloon {
+    display: none;
+  }
+  .logo {
+    padding-top: 42px;
+  }
+  .right-cloud {
+    width: 80px;
+    top: 20px;
+    right: -12px;
+  }
+  .main__section_top h1 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .main__buttons {
+    flex-direction: column;
+    padding: 0px 12px;
+  }
+  .main__buttons button {
+    width: 100%;
+    height: 50px;
+  }
+  .main__buttons_pc {
+    display: none !important;
+  }
+  .main__buttons_mob {
+    display: flex !important;
+  }
+  .main__section_top {
+    height: auto;
+    padding-bottom: 32px;
+  }
+  .about__wrapper {
+    justify-content: flex-start !important;
+  }
+  .about__block_img img {
+    /* width: 100px; */
+  }
+  .about__block {
+    min-width: auto;
+  }
+  .last__mobil_block {
+    display: block !important;
+  }
+}

@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "SF-Pro", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.header__wrapper {
+  padding: 20px 12px;
+}
+.btn__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 6px;
+  border-radius: 14px;
+  /* padding: 6px 12px; */
+  width: 135px;
+  height: 32px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn__balck {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  width: 167px;
+}
+.btn__header span {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle__counter {
+  background-color: rgba(255, 67, 41, 1) !important;
+  width: 16px !important;
+  height: 16px !important;
+  font-weight: 800;
+  font-size: 11px;
+}
+.start-100 {
+  left: 95% !important;
+}
+.right__content {
+  column-gap: 20px;
+  align-items: center;
+}
+.btn__star {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.right__content_btns {
+  column-gap: 8px;
+}
+.btn__red {
+  background-color: rgba(255, 67, 41, 1);
+  border: 1px solid rgba(255, 67, 41, 1);
+  color: #fff;
+}
+.right__content_person button {
+  border: none;
+  position: relative;
+}
+.right__content_person span {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 67, 41, 1) !important;
+  width: 17px !important;
+  height: 17px !important;
+  font-weight: 800;
+  font-size: 11px;
+  color: #fff;
+  display: none;
+}
+
+/* Applications */
+
+.applications .btn__blue {
+  background-color: rgba(58, 156, 228, 1);
+  border: 1px solid rgba(58, 156, 228, 1);
+  color: #fff;
+}

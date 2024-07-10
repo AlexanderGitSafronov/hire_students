@@ -1,0 +1,138 @@
+@media (max-width: 1920px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+@media (max-width: 768px) {
+  .btn__balck,
+  .btn__star,
+  .main__content_header h4 {
+    display: none;
+  }
+  .right__content_person span {
+    display: flex;
+  }
+  .post__content {
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+  .post__content_right {
+    width: 100%;
+    align-items: flex-end !important;
+  }
+  .see__details {
+    margin-right: 50px;
+  }
+  .post__content_right {
+    margin-top: 6px;
+  }
+
+  /* Applicants */
+  .applications .see__details {
+    margin-right: 0px !important;
+  }
+  .applications .post__content_right {
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .applications .last__time span:nth-child(2) {
+    display: none;
+  }
+  .applications .post__img {
+    display: none;
+  }
+  .applications .post__content_left_img {
+    margin-top: 0;
+  }
+  .applications .post__content_left_img img {
+    position: static;
+    width: 72px;
+  }
+  .applications .post__content {
+    margin-top: 0;
+  }
+  .applications .post__bottom_buttons {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 520px) {
+  .post__content_left {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .manager__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .post__content_right button {
+    width: 100% !important;
+  }
+  .post__content_right {
+    width: 100%;
+    align-items: center !important;
+  }
+  .see__details {
+    margin-right: 0px;
+  }
+  .post__bottom {
+    flex-direction: column;
+  }
+  .post__content_left_img {
+    position: relative;
+    margin-top: 50px;
+  }
+  .post__content_left_img img {
+    position: absolute;
+    top: -135px;
+    left: 15px;
+    width: 72px;
+    height: 72px;
+  }
+  .post__bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+  .post__content_left {
+    flex-direction: row;
+    margin-top: 30px;
+  }
+  .d_none {
+    display: none;
+  }
+  .post__red_block {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  .post__red_block_right {
+    margin-top: 12px;
+  }
+  .retail__manager{
+    font-size: 17px !important;
+  }
+  .place__wrapper span {
+    font-size: 13px !important;
+  }
+  .main__content_header h6 {
+    font-size: 17px !important;
+    margin-bottom: 12px;
+  }
+  .main__content_header {
+    margin-top: 12px !important;
+  }
+  .apply_to_job .description {
+    margin-top: 18px;
+    width: 100%;
+  }
+  .apply_to_job .post__content_right {
+    margin-top: 18px;
+  }
+  .apply_to_job .description h5{
+    font-size: 17px;
+  }
+  .apply_to_job .description p{
+    font-size: 15px;
+  }
+}
